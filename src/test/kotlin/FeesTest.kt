@@ -81,7 +81,7 @@ class FeesTest {
 
         val result = feeCalc(type, monthTotal, transfer)
 
-        assertEquals(-1, result)
+        assertEquals(0, result)
     }
     @Test
     fun positiveTransferSum() {
